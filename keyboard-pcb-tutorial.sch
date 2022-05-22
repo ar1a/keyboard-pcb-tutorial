@@ -403,20 +403,8 @@ F 3 "~" H 4250 3500 50  0001 C CNN
 	1    4250 3500
 	0    1    1    0   
 $EndComp
-$Comp
-L power:VCC #PWR0111
-U 1 1 628E2AB7
-P 4400 3500
-F 0 "#PWR0111" H 4400 3350 50  0001 C CNN
-F 1 "VCC" H 4417 3673 50  0000 C CNN
-F 2 "" H 4400 3500 50  0001 C CNN
-F 3 "" H 4400 3500 50  0001 C CNN
-	1    4400 3500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4400 3500 4350 3500
-Connection ~ 4400 3500
 Wire Wire Line
 	4150 3500 4100 3500
 $Comp
@@ -610,4 +598,24 @@ Text GLabel 6750 2100 0    50   Input ~ 0
 ROW0
 Text GLabel 6750 3100 0    50   Input ~ 0
 ROW1
+Connection ~ 4400 3500
+$Comp
+L power:VCC #PWR0111
+U 1 1 628E2AB7
+P 4400 3500
+F 0 "#PWR0111" H 4400 3350 50  0001 C CNN
+F 1 "VCC" H 4417 3673 50  0000 C CNN
+F 2 "" H 4400 3500 50  0001 C CNN
+F 3 "" H 4400 3500 50  0001 C CNN
+	1    4400 3500
+	1    0    0    -1  
+$EndComp
+Text GLabel 5600 3300 2    50   Input ~ 0
+ROW1
+Text GLabel 5600 3200 2    50   Input ~ 0
+COL0
+Text GLabel 5600 3100 2    50   Input ~ 0
+COL1
+Text GLabel 5600 4600 2    50   Input ~ 0
+ROW0
 $EndSCHEMATC
